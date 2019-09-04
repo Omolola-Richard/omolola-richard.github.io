@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Omolola cv</title>
+        <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            header{
+                background-color:plum;
+                font-size: large;
+            }
+            body{
+              background-color:#2f8000;
+             color:rgba(134, 29, 29, 0.925);
+             padding: 5px;
+              font-family: Georgia, 'Times New Roman', Times, serif;
+           }
+        h4{
+            color: blueviolet;
+            font-family: Cambria;
+            font-size: larger;
+            text-align: center;
+        }
+    #contact{
+           float: left;
+           background: #460080;
+	       padding: 30px;
+           margin: 50px 10% 50px 10%;
+           border: 2px solid dimgray;
+           border-radius: 10px;
+          display: block;
+          min-height: 35px;
+        }
+    .field{
+        box-sizing: border-box; 
+        -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box; 
+          padding: 8px;
+          outline: none;
+          border: 1px solid #01ff16;
+         -webkit-transition: all 0.30s ease-in-out;
+         -moz-transition: all 0.30s ease-in-out;
+        -ms-transition: all 0.30s ease-in-out;
+        -o-transition: all 0.30s ease-in-out;
+       }
+
+  </style>
+    </head>
+<body>
+    <header>
+        <center>
+        <img src="https://res.cloudinary.com/omololarichard/image/upload/c_scale,h_158,w_120/v1566557460/tiana_1_si66du.jpg">
+           <h1><b>Richard Omolola</b></h1>
+        <h4 style="text-align: right";
+            12 williams Ayameh street
+            oworo,lagos
+            <br><a href="08062699095">08062699095</a>
+            -<a href="omololarichard@gmail.com">omololarichard@gmail.com</a>
+        </h4>
+        </center>
+    </header>
+    <hr>
+            <h4><b>EXPERIENCE</b></h4>
+            <p>God's power Internationl school,lagos-class teacher
+                 -September 2013-December 2013
+                <ul>
+                    <li>Coordinating the students</li>
+                    <li>Marking of attendance</li>
+                    <li>Giving out assignment</li>
+                </ul>
+            </p>
+            <p>
+                CDGC construction company, Ibadan- Receptionest
+                - May 2017- August 2017
+                <ul>
+                    <li> Welcoming Guest</li>
+                    <li>Arranging sechulde for guest and ceo meeting</li>
+                </ul>
+            </p>
+            <p>
+                    Tracedigital,ltd,Ibadan - Customer Care / Content Writer
+                   -September 2017- December 2017
+                   <ul>
+                       <li> Social medial marketing for client</li>
+                       <li>Blog maintance for client</li>
+                       <li>Attend to complains and communicating with clients</li>
+                   </ul>
+            </p>
+          <p>
+                GtBank, Lagos — Teller
+                -January 2018-July 2108
+                <ul>
+                    <li>Assisiting customers to Deposit/ withdraw bulk money</li>
+                    <li> Confirming completion of money and checking for fake</li>
+                </ul>
+          </p>
+          <hr>
+        <h4><b>EDUCATION</b></h4>
+        <p>Obafemi Awolowo University, Ile-Ife - <em>B.A ENGLISH</em>
+        <br> March 2013- April 2017
+        </p>
+        <p>
+            Federal Goverment Girls College, Ipetumodu, Osun State-
+            <em>SECONDARY SCHOOL LEAVING CERTIFICATE</em>
+            <br> September 2006-June 2012
+        </p>
+        <hr>
+            <h4><b>SKILLS</b></h4>
+        <ul>
+            <li> Ability to work and learn under pressure</li>
+             <li> Effective time managment</li>
+             <li> Computer literate</li>
+            <li> Research skills.</li>
+            <li> HTML,CSS ,JAVA SCRIPT </li>
+         <li>Ability to create information effectively and to work as part of a team.</li>
+        </ul>
+        <div id="contact">
+        <form name="contactform" onsubmit="return validatedata()">
+            <h3>Contact Me!</h3>
+            <h4>Kindly fill this form to get in touch</h4>
+                <label for="Name">Fullname:</label><br/>
+                <input type="text" id="Name" class="field" minlength="4"  required/><br/>
+                <label for="mail">Email Address:</label><br/>
+                <input type="email" id="mail"class="field" placeholder="example@email.com" required/><br/>
+                <label for="mail">Message Title:</label><br/>
+                <input type="text" id="title"/><br/>
+                <textarea id="msg"class="field" cols="22" rows="7" minlength="20"  required></textarea><br/>
+                <button name="submit" id="submit">Submit</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
